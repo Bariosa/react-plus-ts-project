@@ -1,8 +1,13 @@
 import React from "react";
-import "./App.css";
+import { Container } from "./components/Container";
+import { TheHeader } from "./components/TheHeader";
 
 function App() {
-  return <></>;
+  return (
+    <Container>
+      <TheHeader />
+    </Container>
+  );
 }
 
 export default App;
